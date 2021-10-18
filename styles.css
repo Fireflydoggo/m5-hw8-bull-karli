@@ -27,3 +27,25 @@ p {
   color: #6003C3;
   text-align: center;
 }
+
+div#box-1.box {
+  border: 10px solid #6003C3 ;
+  padding: 2px;
+  background-color:#FCFF00;
+  text-align: center;
+}
+
+div#box-2.box {
+  border: 10px solid #6003C3 ;
+  text-align: center;
+  padding: 2px;
+  background-color: #57FFC9;
+}
+
+div#box-3.box {
+  border: 10px solid #6003C3 ;
+  text-align: center;
+  padding: 2px;
+  background-color: #A5FF01;
+}
+
