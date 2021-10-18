@@ -12,11 +12,18 @@ body {
 
 header {
   background-color: #6003C3;
-  display: flex;
+  padding: 5%;
+}
 
-  .title {
-    font-size: 5em;
-    justify-content: center;
+.title {
+  font-size: 4em;
+  color: white;
+  text-align: center;
 
-  }
+}
+
+p {
+  font-size: 1.5em;
+  color: #6003C3;
+  text-align: center;
 }
