@@ -34,6 +34,9 @@ for (let i = 0; i < boxElements.length; i ++) {
 
 // create a random number between 1-3 and store it to a variable
 // This number will represent the winning box
+var theRandomNumber = Math.floor(Math.random() * 3) + 1;
+sessionStorage.setItem("firstNumberClicked", theRandomNumber);
+var
 
 // determine if the box clicked is equal to the random number
 // if the numbers match, display a winning message by changing the text content of the div#message element
