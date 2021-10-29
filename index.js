@@ -39,7 +39,12 @@ sessionStorage.setItem("firstNumberClicked", theRandomNumber);
 var
 
 // determine if the box clicked is equal to the random number
+if ('numWasClicked' = theRandomNumber)
+    console.log('Matched');
+else
+    console.log('messages')
 // if the numbers match, display a winning message by changing the text content of the div#message element
+
 // if the numbers match, increment wins and display the win count in div#wins
 
 // if the numbers don't match, change the div#message element's text to a random losing message from the array above
